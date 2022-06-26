@@ -3,7 +3,7 @@ import java.io.*;
 public class FileTreeRead {
     public FileTreeRead() {}
 
-	private void GetTreeList(int lvl, File f) {
+	public void GetTreeList(int lvl, File f) {
 		int i,j;
 		String wkStr = "";
 
